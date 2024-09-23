@@ -26,14 +26,15 @@ h3 {
       
 }
 
-
+/* NavBar Styling*/
 .topnav {
     background-color: #cc6c5c;
     overflow: hidden;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    
     
    }
   
@@ -42,10 +43,9 @@ h3 {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 90px;
+    padding: 14px 50px;
     text-decoration: none;
     font-size: 28px;
-    
     
   }
   
@@ -56,6 +56,11 @@ h3 {
     border-radius: 20px;
     
     
+  }
+  
+  #logoImage{
+  width: 400px;
+  height: auto;
   }
   
 .Info{
@@ -81,3 +86,32 @@ li {
   width: 1000px;
   height: 400px;
 }
+
+/* Gif */
+#gifText, #logoImage{
+  margin: 0;
+  padding: 0; 
+
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Centers the elements horizontally */
+  align-items: center;  
+
+}
+
+.header {
+  display: flex;
+  
+
+}
+
+/* Background  */
+
+
+body {
+  background: rgb(245,242,235);
+  background: linear-gradient(90deg, rgba(245,242,235,1) 0%, rgba(251,245,234,1) 40%, rgba(248,239,224,1) 98%);
+}
+
